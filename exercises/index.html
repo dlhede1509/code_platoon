@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<title>Code Platoon Exercises</title>
+	<meta charset="UTF-8"/>
+	<script src="scripts.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="form-group">
+				<h1 class="text-primary">Calculate Dog Years</h1>
+				<form onsubmit="calculateDogYears()">
+					 <label for="birthYear">Enter Your Birth Year</label>
+					 <input class="form-control" id="birthYear" type="text" name="birthYear" required />
+					 <label for="thisYear">Enter This Year</label>
+					 <input class="form-control" id="thisYear" type="text" name="thisYear" required><br>
+					 <button class="btn btn-primary btn-block" type="submit">Go</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="form-group">
+				<h1 class="text-primary">Return Larger of Two Reversed Numbers</h1>
+				<form onsubmit="reverseNumbers()">
+					 <label for="number1">Enter The First Number</label>
+					 <input class="form-control" id="number1" type="text" name="number1" required />
+					 <label for="number2">Enter The Second Number</label>
+					 <input class="form-control" id="number2" type="text" name="number2" required><br>
+					 <button class="btn btn-secondary btn-block" type="submit">Go</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="form-group">
+				<h1 class="text-primary">Return The Index of A Number List</h1>
+				<form onsubmit="returnIndex()">
+					 <label for="targetNumber">Enter The Index</label>
+					 <input class="form-control" id="targetNumber" type="text" name="targetNumber" required />
+					 <label for="numberList">Enter A List of Numbers</label>
+					 <input class="form-control" id="numberList" type="text" name="numberList" required><br>
+					 <button class="btn btn-warning btn-block" type="submit">Go</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="form-group">
+				<h1 class="text-primary">Order By Length & Alphabet</h1>
+				<form onsubmit="sortWords()">
+<!-- 					 <label for="targetNumber">Enter The Index</label>
+					 <input class="form-control" id="targetNumber" type="text" name="targetNumber" required /> -->
+					 <label for="wordList">Enter A List of Words</label>
+					 <input class="form-control" id="wordList" type="text" name="wordList" required><br>
+					 <button class="btn btn-danger btn-block" type="submit">Go</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
